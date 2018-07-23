@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Bike Church</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<style>
+
+body{
+  margin: 0;
+}
+   img.content{
+       padding-top: 50px;
+        max-width: 90%;
+       width: 900px;
+    }
+    
+     div.center{
+ text-align: center;
+ margin: auto;
+ }   
+    
+h1{
+font-family : Sanchezregular-ita;
+    color: white;
+    padding-top: 15vh;
+    font-size: 60px;
+}
+h3{
+font-family : Sanchezregular-ita;
+  max-width: 800px;
+  text-laign: left;
+  margin-left: auto;
+  margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 40px;
+  color: #787878 ;
+    padding: 0px 40px 0px 40px;
+    font-size: 20px;
+    border: red 0px solid;
+}
+span{
+display: none;
+}
+h2{
+font-family : Sanchezregular-ita;
+  max-width: 800px;
+  text-laign: left;
+  margin-left: auto;
+  margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 40px;
+  color: black;
+    padding: 0px 40px 0px 40px;
+    font-size: 30px;
+    border: red 0px solid;
+}
+    h4{
+   max-width: 800px;
+  text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+    padding: 0px 40px 0px 40px;
+    font-size:15px;   
+    }
+    
+    
+    form{
+max-width: 520px;
+margin: auto;
+font-size: 20px;
+font-family : GeosansLight;
+color: #C0C0C0 ;
+
+}
+label{
+display:block; width:x; height:y; text-align:left;
+}
+
+textarea {
+width : 470px;
+max-width : 470px;
+height : 110px;
+max-height : 110px;
+border-style: none;
+margin: auto;
+background : transparent;
+outline : none;
+color : red;
+font-family : GeosansLight;
+font-size : 1.2em;
+border : #b3aca7 solid 1px;
+border-radius: 40px;
+transition : all 0.3s ease-in-out;
+
+}
+
+input{
+color: #C0C0C0 ;
+  background-color: #F8F8F8 ;
+  max-width :8070px;
+  height:40px;
+  font-size: 20px;
+border-radius: 1px;
+border:  #C0C0C0 1px solid;
+
+}
+
+#buttons input{
+color: black;
+  background-color: white;
+  width: 670px;
+  height:50px;
+  font-size: 20px;
+border-radius: 1px;
+border : black solid 2px;
+width: 140px;
+font-family : GeosansLight;
+    transition: all 0.2s ease 0s;
+    
+}
+#buttons input:hover{
+    color: white;
+background-color: black;
+   border: 2px solid black;
+}
+
+
+input[type="text"]:focus, textarea:focus {
+background-color : white ;
+ outline:none;
+}
+fieldset {
+ border:none;
+
+  }
+Heavitas.ttf
+@font-face {
+    font-family: Mochary_PERSONAL_USE_ONLY;
+    src: url(fonts/Mochary_PERSONAL_USE_ONLY.ttf);
+}
+@font-face {
+    font-family: Heavitas;
+    src: url(fonts/Heavitas.ttf);
+}
+ @font-face{
+font-family : Sanchezregular-ita;
+src : url(fonts/Sanchezregular-ita.otf);
+}
+ @font-face{
+font-family : GeosansLight;
+src : url(fonts/GeosansLight.ttf);
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url('fonts/BebasNeue.otf')
+}
+.me{
+text-align: center;
+margin: auto;
+width: 300px;
+}
+    
+hr {
+border: none;
+height: 1px;
+color:black; 
+background-color: dimgrey; 
+
+max-width: 920px;
+}
+    
+p{
+  font-family : GeosansLight;
+  max-width: 800px;
+  text-left: left;
+  margin-left: auto;
+  margin-right: auto;
+  color: #B0B0B0 ;
+padding: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+  font-size:18px;
+  line-height: 160%;
+}
+
+ul { 
+  text-align: center; 
+display:block;
+      padding:0px;
+
+}
+li { 
+  display: inline-block; 
+  padding: 0 14px 0 14px;
+  color: white;
+  margin-top: 0px;
+  
+}
+a{
+  color: black;
+  text-decoration: none;
+font-family : Sanchezregular-ita;
+  font-size: 17px;
+  font-weight: bold;
+}
+a:hover{
+  color:#505050;
+
+}
+
+.fixed {
+    width: 100%;
+    height: 55vh;
+    background-image: url("images/churchdim.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  padding-bottom: 0px;
+}   
+    
+    .fixed2 {
+    width: 100%;
+    height: 55vh;
+    background-image: url("images/bwdim.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  padding-bottom: 0px;
+}  
+
+.ghost_btn {
+margin-top: 0px;
+    text-decoration: none;
+    font-family : Sanchezregular-ita;
+    color: black;
+    border: 3px solid white;
+    padding: 15px 120px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 0px;
+    transition: all 0.6s ease 0s;
+    cursor: pointer;
+ font-size: 30px;
+background-color: white;
+}
+a.ghost_btn:hover{
+    color: #B8B8B8 ;
+background-color: #F0F0F0 ;
+   border: 3px solid white;
+}
+
+.ghost_btn2 {
+margin-top: 0px;
+    text-decoration: none;
+      font-family : GeosansLight;
+    color: black ;
+    border: 2px solid black;
+    padding: 10px 40px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 2px;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+ font-size: 20px;
+ background-color: white;
+ margin-left: 33%;
+
+}
+a.ghost_btn2:hover{
+    color: white;
+background-color: black;
+   border: 2px solid black;
+}
+
+
+      img.logox{
+        padding-top: 60px;
+    }
+    
+
+    @media screen and (max-width: 500px) 
+{
+
+   img.cisco{
+  padding-top: 3px;
+       width: 100px;
+    border: red 0px solid;
+}
+h1{
+font-size: 250%;
+text-decoration: underline;
+color: cyan;
+    }
+p{
+padding: 5px;
+}
+h2{
+font-family : Sanchezregular-ita;
+  max-width: 800px;
+  text-laign: left;
+  margin-left: auto;
+  margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 20px;
+  color: black;
+    padding: 0px 20px 0px 20px;
+    font-size: 30px;
+    border: red 0px solid;
+}
+}
+@media screen and (max-height: 650px) 
+{
+  h3{
+
+    font-size: 60px;
+     padding-top: 3vh
+  }  
+   img.logox{
+        padding-top: 30px;
+              padding-bottom: 0px;
+       margin-bottom: 0;
+       margin-bottom: 0;
+    }
+    
+}
+
+@media screen and (max-width: 850px) 
+{
+span{
+display: block;
+}
+nav {
+position: fixed;
+background-color: white;
+width: 100%;
+margin-bottom: 300px;
+padding-bottom: 10px;
+}
+section.firstfixed{
+padding-top: 61px;
+}
+  ul{
+    display:none;
+
+  }
+    
+    img.logox {
+        float:right;
+    }
+    
+    img.cisco{
+  padding-top: 3px;
+       width: 300px;
+    border: red 0px solid;
+}
+    
+    h1{
+    padding-top: 10vh;
+    font-size: 40px;
+}
+    
+    .fixed {
+    width: 100%;
+    height:30vh;
+    }
+   img.logox{
+        padding-top: 30px;
+       padding-bottom: 0px;
+       margin-bottom: 0;
+    }
+  
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   background-color: rgba(255, 255, 255, 0.98);
+    overflow-y: hidden;
+    transition: 0.2s;
+}
+
+.overlay-content {
+  font-family: SignPainter;
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.overlay a {
+
+    padding: 8px;
+    text-decoration: none;
+    font-size: 46px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+font-family : Sanchezregular-ita;
+}
+
+.overlay a:hover, .overlay a:focus {
+ color:#505050;
+}
+
+.closebtn {
+    position: absolute;
+    top: 16px;
+  left: 18px;
+    font-size: 60px !important;
+    width: 60px;
+}
+span{
+  position: fixed;
+  top: 24px;
+  left: 23px;
+}
+
+img.logox {
+    float:left;
+        padding-top: 0px;
+    padding-right: 40px;
+    }
+
+div.width{
+  max-width: 800px;
+  margin: auto;
+padding: 40px;
+    height: 300px;
+}
+    div.color{
+        background-color: whitesmoke;
+        
+    }
+        hr{
+    width: 80%;
+    text-align: center;
+    }
+    a.smalla{
+      color: black;
+  text-decoration: none;
+font-family : Sanchezregular-ita;
+  font-size: 22px;
+  font-weight: bold;
+    }
+    
+    
+</style>
+
+
+
+</head>
+<body>
+
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    
+
+    <img  src="images/close.png" alt="colsebtn" width="60"></a>
+        <!-- 
+    <center>
+     <img class="logox" src="images/logox.png" width="200px;" >
+        </center>
+            -->
+  
+  <div class="overlay-content">
+      <!-- <img class="cisco" src="images/seriflogo.png" width="470px;" > -->
+   
+
+    <a href="Bike.html">Home</a>
+    <a href="participate.html">Participate</a>
+      <a href="about.html">About</a>
+    <a href="photos.html">Photos</a>
+    
+      <hr>
+              <a class="smalla" href="video.html">⋆ VIDEO ⋆</a>
+    <a class="smalla" href="logo.html">LOGOS</a>
+      <a class="smalla" href="faq.html">FAQ</a>
+        <a class="smalla" href="makingof.html">⋆ MAKING OF ⋆</a>
+    
+  </div>
+</div>
+
+
+
+
+
+
+<nav>
+<center><br>
+
+    <a href="Bike.html">   <img class="cisco" style="z-index:1000;position:relative;" src="images/seriflogo.png" width="470" ></a>
+
+ <ul>
+  <li><a href="#home">HOME</a></li>
+
+
+  <li><a href="participate.html">PARTICIPATE</a></li>
+
+     <li><a href="about.html">ABOUT</a></li>
+     
+<li> <a href="photos.html">PHOTOS</a></li>
+</ul>
+</nav>
+       <!-- 
+    <img class="content" src="images/h.jpg">
+    -->
+  
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+    
+   <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/195031-200.png" width="60px;"></span>
+</center>
+
+<center>
+<section class="firstfixed">
+    <div class="fixed">
+        <h1>Bike Shop and<br> Tool Collective for<br> the Community</h1>
+    </div>
+</center>
+</section>
+
+  </div>
+    
+  <br><br>  <br>  
+ <h2>Bike Church</h2>
+      <h4>_______</h4>
+
+<div class="width">
+ <img class="logox" src="images/logox.png" width="200px" />
+
+    <p>The Bike Church is a community bicycle 
+    shop and tool collective where people can 
+    learn to repair their bicycles with the help 
+    of knowledgeable mechanics. We offer sliding
+     scale services and affordable used and new
+      parts. As a collectively run organization,
+       we are committed to honoring the 
+       contribution of individuals while
+        recognizing the importance of collaboration.
+         Check out the video for more info.
+</p>
+
+
+    </div>
+
+    <!--
+    <center>
+    <iframe style="max-width: 900px;"src="https://drive.google.com/file/d/0ByI6c-e3cF9lalBUclNNVmlFaWs/preview" width="900" height="600"></iframe>
+</center>
+-->
+  <br><br> 
+
+ 
+    <h2>Our Mission</h2>
+        <h4>_______</h4>
+    <center>
+     <img class="content" src="images/bikepack.jpg">
+</center>
+   <p>The Bike Church provides the tools, shop space, and supervision for a diverse community to learn, share
+knowledge, and effectively repair bicycles at low cost. This promotes: safe bicycling, more bikes in use, reuse 
+of materials destined for landfill, and learning opportunities via hands-on-work, classes, and apprenticeships.</p>
+<div class="center">
+<a class="ghost_btn2" href="about.html#about">Read More</a>
+      </div><br>
+<center>
+      <br><br>  <br>
+      
+    <br><br>
+  <div class="fixed2">
+      <br><br> <h1> Come in and volunteer!</h1>
+      <a class="ghost_btn" href="participate.html">Help Out</a>
+    </div>
+       </center> 
+      
+      <br>  <br>  
+<p>
+    The Bike Church is low on volunteer staff 
+    and has cut our hours to 3 days and one evening a week.
+    We would love to get new people who are passionate about bike in to help us out.
+      </p>
+            <br>  <br>      <br>  <br>
+       <h2>Media</h2>
+      <h4>_______</h4>
+  
+  
+  <div class="center">
+ <a href="video.html"><img class="content" src="images/videoscreen.jpg"></a></div>
+<p>
+    Watch the new, highly acclaimed Bike Church documentary done by Marcello Hutchinson-Trujillo. 
+    Spend a day at The Bike Church and get to hear from individuals from all walks of 
+    life who enjoyed the Bike Churches services, the day Marcello went to film.
+      </p><div class="center">
+<a class="ghost_btn2" href="video.html">Watch!</a>
+      </div><br>
+  
+<div class="center">
+ <img class="content" src="images/church.jpg"></div>
+<p>
+    The Bike Church is a photogenic place....
+      </p>
+<div class="center">
+<a class="ghost_btn2" href="photos.html">View Photos</a>
+      </div><br>
+      
+      <div class="center">
+ <img class="content" src="images/wheelslogo.jpg"></div>
+<p>
+    We recently just redesign our website and our logo. We design our logo with a simple and 
+    clean design in mind. We wanted something that wasn't too graphic as well as something that 
+    could fit well into the website and on merchandise like t shirts and such.      </p>
+<div class="center">
+<a class="ghost_btn2" href="logo.html">View Logo</a>
+      </div><br>
+    
+    <!--
+ <div id="map" style="max-width:900px;height:500px"></div></div>
+</center>
+</div> 
+    -->
+      <br>
+
+
+<br>  <br>
+<h2>Email List</h2>
+		    <h4>_______</h4>
+
+
+<form id ="form" class="topBefore" method="post" action="http://earthdance.com/cgi-bin/bnbform/bnbform.cgi">
+
+<fieldset>
+
+<label for="name">Name:<br></label> <input type="text" name="name" id="name" size="30">
+
+<br><br>
+<label for="email">Email Address:<br></label> <input type="text" name="email" id="email" size="30">
+<br><br>
+
+</fieldset>
+
+
+<div id="buttons">
+<p>
+<input type="submit" value="Submit">
+<!-- For reset and submit buttons, whatever you put in "value" will be the label of the button; if you don't include a value="..." attribute, they will be named "Reset" and "Submit." -->
+</p>
+</div>
+
+<div>
+<!-- SCRIPT CONFIGURATION SECTION -->
+<input type="hidden" name="data_order" value="name, address, message">
+<input type="hidden" name="submit_to" value="mhucinson@gmail.com">
+<input type="hidden" name="form_id" value="My Test Form">
+<input type="hidden" name="ok_url" value="http://webhawks.org/~dm61mahutc7092/Final/thanks.html">
+<!-- END OF SCRIPT CONFIGURATION SECTION -->
+</div>
+
+
+</form>
+
+<br>  <br><br>  <br>
+<div class="center">
+<a href="http://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+&nbsp;&nbsp;
+<a href="http://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+&nbsp;&nbsp;
+<a href="sitemap.html">Site Map</a>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+    
+function myMap() {
+  var myCenter = new google.maps.LatLng(36.968569, -122.024818);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 15};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+
+
+</body>
+</html>
