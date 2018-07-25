@@ -14,6 +14,7 @@ h1{
   font-size: 28px;
   color:	#282828 ;
   margin-bottom: 15px;
+    border: red 0px solid;
 }
 p{
   width: 320px;
@@ -22,6 +23,7 @@ p{
   font-family: 'Roboto', sans-serif;
   color: 	#282828;
   font-size: 15px;
+    
 }
 
 ul{
@@ -33,16 +35,27 @@ li{
   font-family: 'Roboto', sans-serif;
   padding-left: 0px;
 }
+            
 a{
   color:#707070;
   text-decoration: none;
   font-size: 13px;
+           border: red 0px solid;
 }
+            
+            .center > a {
+                 border: red 0px solid;
+                width: 6px;
+            }   
+            a.social{
+                color:#ff7a7a;
+            }
 a:hover{
   color:	#282828;
 }
 nav{
  position: fixed;
+    border: red 0px solid;
 }
 
 .center{
@@ -60,6 +73,22 @@ img.padding2{
              img{
                 max-width: 600px;
             }
+            ul{
+                border: red 0px solid;
+                width: 100px;
+                padding-bottom: 10px;
+            }
+            
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    text-align: left;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+            }
 </style>
     
     
@@ -67,9 +96,7 @@ img.padding2{
   </head>
   <body>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-      
-      <nav>
+<nav>
   <h1><b>marcello trujillo</b></h1>
 <p>marcello is a tape label and maker's guild based in Milwaukee, WI.</p>
 
@@ -85,14 +112,26 @@ img.padding2{
 </ul>
 </nav>
       
+      
 <div class="center">
-<img class="padding" src="http://www.rubyyacht.com/wp-content/uploads/2015/07/ruby-again-400x400.png">
+    <img class="padding" src="images/beach.jpg">
   
   
 
-  <img class="padding2" src="http://www.rubyyacht.com/wp-content/uploads/2015/07/ruby-again-400x400.png">
+  <img class="padding2" src="images/felton.jpg">
+    
+       <img class="padding" src="images/beach.jpg">
+  
+    
+       <img class="padding" src="images/beach.jpg">
+  
+    
+       <img class="padding" src="images/beach.jpg">
+  
 </div>
 
+      
+<footer>© 2018 by marcello: design by rory</footer>
 </body>
 </html>
 
