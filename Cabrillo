@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cabrillo</title>
+    
+    
+        <style>
+            
+h1{
+  padding: 30px 0 0 30px;
+  font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+  font-size: 28px;
+  color:	#282828 ;
+  margin-bottom: 15px;
+}
+h3{
+  border: red 0px solid;
+  padding:0px 0px 0px 790px;
+  margin: 0px;
+  color:black;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  height: 30px;
+  font-weight: normal;
+}
+          
+ .link{
+    color: black;  
+}
+          
+p{
+  width: 320px;
+  margin-top: 0px;
+    padding: 0 0 0 30px;
+  font-family: 'Roboto', sans-serif;
+  color: 	#282828;
+  font-size: 15px;
+    text-align: left;
+}
+
+ul{
+list-style-type: none;
+  padding-left: 30px;
+}
+
+li{
+  font-family: 'Roboto', sans-serif;
+  padding-left: 0px;
+}
+a{
+  color:#707070;
+  text-decoration: none;
+  font-size: 13px;
+}
+a:hover{
+  color:	#282828;
+}
+nav{
+ position: fixed;
+}
+
+.center{
+  text-align: center;
+      border: red 0px solid;
+}
+img.padding{
+  border: red 0px solid;
+  padding:60px 0px 0px 390px;
+    margin: 0px;
+}
+
+img.padding2{
+  border: red 0px solid;
+  padding:0px 0px 40px 390px;
+}
+              img{
+                max-width: 600px;
+            }
+            div.video{
+                 border: red 0px solid;
+         padding:60px 0px 40px 390px;
+            }
+</style>
+    
+    
+    
+  </head>
+  <body>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+      <nav>
+  <h1><b>marcello hutchinson-trujillo</b></h1>
+<p>Marcello is a filmmaker/cinematographer based in Santa Cruz Ca</p>
+
+<ul>
+ <li><a href="index.html"> home</a></li>
+ <li><a href="personal.html">filmmaking</a></li>
+ <li><a href="prof.html">photography</a></li>
+ <li><a href="about.html">about</a></li>
+    
+<hr>
+<li><a style="color:#66c2ff;" class="social" href="https://vimeo.com/user51673469">vimeo </a></li>
+    <li><a style="color:#ff5050;"class="social" href="https://www.flickr.com/photos/marcellohutchinsontrujillo/with/49486552612">flickr </a></li>
+</ul>
+</nav>
+
+
+<div class="center">    
+<img class="padding" src="https://live.staticflickr.com/65535/53565927006_ac366e5902_b.jpg"> 
+    
+      <h3 class="link"><a href=“flickr.com”>Cabrillo College Library</a> </h3>
+</div>
+
+<div class="center">    
+<img class="padding" src="https://live.staticflickr.com/65535/53483050389_5b895542c3_b.jpg"> 
+    
+      <h3 class="link"><a href=“flickr.com”>Tyler In The Garden</a> </h3>
+</div>
+
+    
+<div class="center">    
+<img class="padding" src="https://live.staticflickr.com/65535/52774443778_ca32e8a452_b.jpg"> 
+    
+      <h3>Grey Bears Seniors Speedating</h3>
+    <img class="padding" src="images/bruce.jpg">
+ <h3>santa cruz sentinel work</h3>
+
+    <img class="padding" src="images/oldmanmah.jpg">
+ <h3>santa cruz museum of art and history</h3>
+
+        <img class="padding" src="images/mahvert.jpg">
+ <h3>santa cruz museum of art and history</h3>
+   
+  <div class="video">
+<iframe src="https://player.vimeo.com/video/273412540?title=0&byline=0&portrait=0" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+  
+    </div>
+</div>
+
+  
+
+</body>
+</html>
