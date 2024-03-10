@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>What's Home</title>
+    
+    
+        <style>
+            
+h1{
+  padding: 30px 0 0 30px;
+  font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+  font-size: 28px;
+  color:	#282828 ;
+  margin-bottom: 15px;
+}
+h3{
+  border: red 0px solid;
+  padding:0px 0px 0px 790px;
+  margin: 0px;
+  color:black;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  height: 30px;
+  font-weight: normal;
+}
+          
+ .link{
+    color: black;  
+}
+          
+p{
+  width: 320px;
+  margin-top: 0px;
+    padding: 0 0 0 30px;
+  font-family: 'Roboto', sans-serif;
+  color: 	#282828;
+  font-size: 15px;
+    text-align: left;
+}
+
+ul{
+list-style-type: none;
+  padding-left: 30px;
+}
+
+li{
+  font-family: 'Roboto', sans-serif;
+  padding-left: 0px;
+}
+a{
+  color:#707070;
+  text-decoration: none;
+  font-size: 13px;
+}
+a:hover{
+  color:	#282828;
+}
+nav{
+ position: fixed;
+}
+
+.center{
+  text-align: center;
+      border: red 0px solid;
+}
+img.padding{
+  border: red 0px solid;
+  padding:60px 0px 0px 390px;
+    margin: 0px;
+}
+
+img.padding2{
+  border: red 0px solid;
+  padding:0px 0px 40px 390px;
+}
+              img{
+                max-width: 600px;
+            }
+            div.video{
+                 border: red 0px solid;
+         padding:60px 0px 40px 390px;
+            }
+</style>
+    
+    
+    
+  </head>
+  <body>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+      <nav>
+  <h1><b>marcello hutchinson-trujillo</b></h1>
+<p>Marcello is a filmmaker/cinematographer based in Santa Cruz Ca</p>
+
+<ul>
+ <li><a href="index.html"> home</a></li>
+ <li><a href="personal.html">filmmaking</a></li>
+ <li><a href="prof.html">photography</a></li>
+ <li><a href="about.html">about</a></li>
+    
+<hr>
+<li><a style="color:#66c2ff;" class="social" href="https://vimeo.com/user51673469">vimeo </a></li>
+    <li><a style="color:#ff5050;"class="social" href="https://www.flickr.com/photos/marcellohutchinsontrujillo/with/49486552612">flickr </a></li>
+</ul>
+</nav>
+
+
+<div class="center">    
+
+
+  <img class="padding" src="https://live.staticflickr.com/902/41654776054_72a3ddd321_h.jpg"> 
+    
+        <h3> Out of Highschool volunteered as a photo intern at the Santa Cruz MAH. To this day I still see my work used in MAH print material and advertisemtents.  </h3>
+</div>
+
+<div class="center">    
+<img class="padding" src="https://live.staticflickr.com/1739/40570360010_f7d042f993_h.jpg"> 
+
+  <img class="padding" src="https://live.staticflickr.com/1752/40570258120_324e0330d8_k.jpg"> 
+
+  <img class="padding" src="https://live.staticflickr.com/1755/40570336200_5de971a691_k.jpg"> 
+
+  <img class="padding" src="https://live.staticflickr.com/898/40570352460_4038fbd764_k.jpg"> 
+
+  <img class="https://live.staticflickr.com/902/28505328358_201bd9afe2_k.jpg"> 
+  <img class="padding" src="https://live.staticflickr.com/1742/28570653838_1296659e0c_k.jpg"> 
+
+
+
+
+    <img class="padding" src="https://live.staticflickr.com/1745/40570433580_c66795c091_k.jpg"> 
+  <img class="padding" src="https://live.staticflickr.com/1754/28505179038_658318661c_k.jpg"> 
+  <img class="padding" src="https://live.staticflickr.com/902/42329164012_cb43eb1b63_k.jpg"> 
+  <img class="padding" src="https://live.staticflickr.com/898/42378624761_16e16e1ea4_b.jpg"> 
+  <img class="padding" src="https://live.staticflickr.com/1754/28570659328_f5d09a66bd_b.jpg"> 
+  <img class="padding" src="https://live.staticflickr.com/1734/40570402700_9fb0419db7_k.jpg"> 
+  <img class="padding" src="https://live.staticflickr.com/885/41654839454_3120458f1a_k.jpg"> 
+  <img class="padding" src="https://live.staticflickr.com/897/28505226128_0612beafca_h.jpg"> 
+
+  
+</div>
+
+    
+
+  
+
+</body>
+</html>
+
+
+
